@@ -1,0 +1,17 @@
+body {
+    margin: 40px;
+    color: antiquewhite;
+    background-color:rgb(167, 1, 1);
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #f1e8b0;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.9em;
+    color: #fcf2d4;
+}

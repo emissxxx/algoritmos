@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuração dos Votos - Brasil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Apuração por Estado</h1>
+
+    <div class="map-container">
+        <!-- Div da Tooltip (Apuração) -->
+        <div id="tooltip" class="tooltip">
+            <h3 id="nome-estado">Estado</h3>
+            <p><strong>Candidato A:</strong> <span id="votos-a">0%</span></p>
+            <p><strong>Candidato B:</strong> <span id="votos-b">0%</span></p>
+            <p class="total"><strong>Total de Votos:</strong> <span id="total-votos">0</span></p>
+        </div>
+
+        <!-- Mapa SVG do Brasil com os IDs/data-uf correspondentes -->
+        <svg viewBox="0 0 600 600" width="100%" height="100%">
+            <g id="estados">
+                <path id="AC" data-uf="AC" d="M 50,220 L 90,220 L 80,250 L 40,240 Z" />
+                <path id="AM" data-uf="AM" d="M 60,110 L 170,110 L 160,200 L 50,210 Z" />
+                <path id="RR" data-uf="RR" d="M 130,40 L 180,40 L 175,100 L 125,100 Z" />
+                <path id="PA" data-uf="PA" d="M 180,100 L 310,100 L 290,220 L 170,200 Z" />
+                <path id="AP" data-uf="AP" d="M 260,40 L 310,40 L 300,90 L 255,85 Z" />
+                <path id="RO" data-uf="RO" d="M 95,225 L 160,210 L 150,280 L 100,270 Z" />
+                <path id="TO" data-uf="TO" d="M 295,210 L 340,210 L 330,310 L 285,290 Z" />
+                <path id="MA" data-uf="MA" d="M 320,105 L 380,115 L 365,210 L 300,200 Z" />
+                <path id="PI" data-uf="PI" d="M 370,130 L 410,140 L 390,240 L 350,210 Z" />
+                <path id="CE" data-uf="CE" d="M 415,125 L 460,135 L 445,175 L 405,160 Z" />
+                <path id="RN" data-uf="RN" d="M 465,140 L 500,150 L 490,170 L 450,165 Z" />
+                <path id="PB" data-uf="PB" d="M 455,170 L 505,175 L 500,195 L 445,190 Z" />
+                <path id="PE" data-uf="PE" d="M 420,190 L 510,198 L 500,220 L 410,210 Z" />
+                <path id="AL" data-uf="AL" d="M 460,222 L 500,225 L 490,245 L 450,238 Z" />
+                <path id="SE" data-uf="SE" d="M 445,248 L 480,250 L 470,270 L 435,262 Z" />
+                <path id="BA" data-uf="BA" d="M 335,220 L 430,220 L 410,360 L 325,310 Z" />
+                <path id="MT" data-uf="MT" d="M 175,210 L 280,220 L 260,350 L 160,300 Z" />
+                <path id="GO" data-uf="GO" d="M 270,300 L 330,310 L 315,400 L 250,370 Z" />
+                <path id="DF" data-uf="DF" d="M 300,340 L 315,340 L 315,355 L 300,355 Z" />
+                <path id="MS" data-uf="MS" d="M 180,330 L 250,360 L 230,450 L 170,410 Z" />
+                <path id="MG" data-uf="MG" d="M 320,365 L 400,355 L 380,450 L 290,420 Z" />
+                <path id="ES" data-uf="ES" d="M 405,370 L 435,375 L 420,420 L 395,410 Z" />
+                <path id="RJ" data-uf="RJ" d="M 370,430 L 420,430 L 405,465 L 355,455 Z" />
+                <path id="SP" data-uf="SP" d="M 260,420 L 340,420 L 320,480 L 235,460 Z" />
+                <path id="PR" data-uf="PR" d="M 230,470 L 310,485 L 295,530 L 220,510 Z" />
+                <path id="SC" data-uf="SC" d="M 235,520 L 295,535 L 280,565 L 225,550 Z" />
+                <path id="RS" data-uf="RS" d="M 210,545 L 280,560 L 250,620 L 180,590 Z" />
+            </g>
+        </svg>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

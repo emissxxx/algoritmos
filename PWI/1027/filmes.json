@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "titulo": "Inception",
+    "diretor": "Christopher Nolan",
+    "ano": 2010,
+    "genero": "Ficção Científica",
+    "nota": 8.8,
+    "imagem": "https://via.placeholder.com/300x450/1e1e2f/ffffff?text=Inception"
+  },
+  {
+    "id": 2,
+    "titulo": "O Poderoso Chefão",
+    "diretor": "Francis Ford Coppola",
+    "ano": 1972,
+    "genero": "Crime",
+    "nota": 9.2,
+    "imagem": "https://via.placeholder.com/300x450/1e1e2f/ffffff?text=O+Poderoso+Chefao"
+  },
+  {
+    "id": 3,
+    "titulo": "Interstellar",
+    "diretor": "Christopher Nolan",
+    "ano": 2014,
+    "genero": "Ficção Científica",
+    "nota": 8.6,
+    "imagem": "https://via.placeholder.com/300x450/1e1e2f/ffffff?text=Interstellar"
+  },
+  {
+    "id": 4,
+    "titulo": "Pulp Fiction",
+    "diretor": "Quentin Tarantino",
+    "ano": 1994,
+    "genero": "Crime",
+    "nota": 8.9,
+    "imagem": "https://via.placeholder.com/300x450/1e1e2f/ffffff?text=Pulp+Fiction"
+  }
+]
